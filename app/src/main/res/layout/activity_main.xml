@@ -17,94 +17,51 @@
         android:textColor="#ff202a39" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Orange"
         android:text="@string/button_media"
-        android:id="@+id/button_media"
+        android:id="@+id/button_popmov"
         android:layout_marginTop="27dp"
-        android:width="250dp"
-        android:height="50dp"
         android:layout_below="@+id/title"
         android:layout_alignLeft="@+id/button_duo1"
         android:layout_alignStart="@+id/button_duo1"
-        android:layout_marginBottom="10dp"
-        android:background="#F08C35"
-        android:textColor="#000000"
-        android:onClick="onBtnMediaClicked" />
+        android:onClick="onBtnPopMovClicked" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Orange"
         android:id="@+id/button_duo1"
         android:text="@string/button_duo1"
-        android:layout_gravity="center"
-        android:height="50dp"
-        android:width="250dp"
-        android:layout_below="@+id/button_media"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="#F08C35"
-        android:textColor="#000000"
+        android:layout_below="@+id/button_popmov"
         android:onClick="onBtnDuo1Clicked" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Orange"
         android:text="@string/button_duo2"
         android:id="@+id/button_duo2"
-        android:layout_gravity="center"
-        android:width="250dp"
-        android:height="50dp"
         android:layout_below="@+id/button_duo1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="#F08C35"
-        android:textColor="#000000"
         android:onClick="onBtnDuo2Clicked" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Orange"
         android:text="@string/button_bigger"
         android:id="@+id/button_bigger"
-        android:layout_gravity="center"
-        android:width="250dp"
-        android:height="50dp"
         android:layout_below="@+id/button_duo2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="#F08C35"
-        android:textColor="#000000"
         android:onClick="onBtnBiggerClicked" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Orange"
         android:text="@string/button_bacon"
         android:id="@+id/button_bacon"
-        android:layout_gravity="center"
-        android:width="250dp"
-        android:height="50dp"
         android:layout_below="@+id/button_bigger"
         android:layout_alignLeft="@+id/button_bigger"
         android:layout_alignStart="@+id/button_bigger"
-        android:layout_marginBottom="10dp"
-        android:background="#F08C35"
-        android:textColor="#000000"
         android:onClick="onBtnBaconClicked" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/PersButton.Red"
         android:text="@string/button_capstone"
         android:id="@+id/button_capstone"
-        android:layout_gravity="center"
-        android:width="250dp"
-        android:height="50dp"
         android:layout_below="@+id/button_bacon"
         android:layout_alignLeft="@+id/button_bacon"
         android:layout_alignStart="@+id/button_bacon"
-        android:background="#ffe52000"
-        android:textColor="#FFFFFF"
         android:onClick="onBtnCapstoneClicked" />
 </RelativeLayout>
